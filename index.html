@@ -23,6 +23,21 @@
             <div>Szo</div>
             <div>V</div>
         </div>
+
+
+        <div id="modal" class="modal">
+            <div class="modaldiv">
+                <span class="bezar" id="bezar_modal">&times;</span> <!-- &times; az az 'X'-et csinálja jobb felül -->
+                <h3>Új esemény</h3>
+                <form id="esemenyform">
+                    <label for="esemenynev">Esemény neve:</label>
+                    <input type="text" id="esemenynev" required><br><br>
+                    <label for="esemeny_datum">Dátum:</label>
+                    <input type="date" id="esemeny_datum" required><br><br>
+                    <button type="submit">Mentés</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <script src="index.js"></script>
